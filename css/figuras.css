@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    min-width: 320px;
+}
+header {
+    background-color: aqua;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+header h1 {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 10px;
+    color: white;
+  
+}
+header p {
+    font-size: 2.4rem;
+}
+.figure__container {
+    background-color: #dee2e6;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.figure__container article {
+    background-color: white;
+    width: 30%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 250px;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+}
+form {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #e0aaff;
+    position: absolute;
+    bottom: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.figure__container--cuadrado span {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    background-image: url('../assets/iconos/cuadrado.svg');
+}
+.figure__container--triangulo span {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    background-image: url('../assets/iconos/triangulo.svg');
+}
+.figure__container--circulo span {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    background-image: url('../assets/iconos/circulo.svg');
+}
+.figure__container--title {
+    margin: 5px;
+    position: absolute;
+    font-size: 2rem;
+    top: 45px;
+}
+.figure__container--label {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 5px;
+}
+.figure__container--input {
+    margin: 5px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+}
+.figure__container--button {
+    margin-bottom: 5px;
+    height: 25px;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5px;
+}
+.input__triangulo {
+    text-align: center;
+    position: relative;
+    left: 10px;
+    width: 23%;
+    height: 25px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+}
