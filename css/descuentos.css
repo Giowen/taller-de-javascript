@@ -1,0 +1,91 @@
+.descuentos__container {
+    width: 100%;
+    height: auto;
+    background-color: #dee2e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cupones {
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4rem;
+
+}
+.logo {
+    width: auto;
+    border-radius: 10px;
+    height: 100px;
+}
+/* .numero__cupones {
+
+} */
+.shop__item {
+    width: 50%;
+    min-width: 320px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shop__item--text {
+    width: 45%;
+    min-width: 320px;
+    min-height: 300px;
+    font-size: 2.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.shop__item img {
+    width: 50%;
+    min-width: 315px;
+    padding: 10px;
+}
+.shop__item--title {
+    font-size: 3.6rem;
+    text-align: center;
+    width: 90%;
+}
+.button__cupon {
+    font-size: 1.8rem;
+    width: 90%;
+    height: 40px;
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    border-style: groove;
+    position: relative;
+    cursor: pointer;
+}
+.button__cupon:hover {
+    background-color: #ffba08;
+}
+.do {
+    font-size: 3.6rem;
+    color: red;
+}
+.revoltoso {
+    font-size: 3.6rem;
+    color: violet;
+}
+.teen {
+    font-size: 3.6rem;
+    color: green;
+}
+.precio {
+    width: 35%;
+    margin-left: 20px;
+    background-color: #ffb4a2;
+    font-size: 2.4rem;
+    text-align: end;
+}
