@@ -53,7 +53,7 @@ header p {
     position: relative;
     border-radius: 10px;
 }
-form {
+.form__figure {
     width: 95%;
     display: flex;
     flex-wrap: wrap;

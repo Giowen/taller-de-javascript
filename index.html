@@ -25,57 +25,57 @@
     <article class="figure__container--cuadrado">
         <span></span>
         <p class="figure__container--title">Cuadrado</p>
-        <form>
-        <label for="InputCuadrado" class="figure__container--label">
-            Escribe cuánto mide un lado de tu cuadrado:
-        </label>
-        <input id="inputCuadrado" type="number" class="figure__container--input"/>
-        <button type="button" onclick="calcularPerimetroCuadrado()" class="figure__container--button">
-            Calcular el perímetro
-        </button>
-        <button type="button" onclick="calcularAreaCuadrado()" class="figure__container--button">
-            Calcular el área
-        </button>
+        <form class="form__figure">
+            <label for="InputCuadrado" class="figure__container--label">
+                Escribe cuánto mide un lado de tu cuadrado:
+            </label>
+            <input id="inputCuadrado" type="number" class="figure__container--input"/>
+            <button type="button" onclick="calcularPerimetroCuadrado()" class="figure__container--button">
+                Calcular el perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()" class="figure__container--button">
+                Calcular el área
+            </button>
         </form>
     </article>
     <!-- Triangulo -->
     <article class="figure__container--triangulo">
         <span></span>
         <p class="figure__container--title">Triangulo</p>
-        <form>
-        <label for="InputTriangulo" class="figure__container--label">
-            Para el perimetro, escribe el Lado A, Lado B y la base.
-            Para el área, escribe la base y la altura.
-        </label>
-        <div class="form__input--triangulo">
-            <input id="inputTrianguloA" type="number" placeholder="Lado A" class="input__triangulo">
-            <input id="inputTrianguloB" type="number" placeholder="Lado B" class="input__triangulo">
-            <input id="inputTrianguloBase" type="number" placeholder="Base" class="input__triangulo">
-            <input id="inputTrianguloAltura" type="number" placeholder="Altura" class="input__triangulo">
-          </div>
-        <button type="button" onclick="calcularPerimetroTriangulo()" class="figure__container--button">
-            Calcular el perímetro
-        </button>
-        <button type="button" onclick="calcularAreaTriangulo()" class="figure__container--button">
-            Calcular el área
-        </button>
+        <form class="form__figure">
+            <label for="InputTriangulo" class="figure__container--label">
+                Para el perimetro, escribe el Lado A, Lado B y la base.
+                Para el área, escribe la base y la altura.
+            </label>
+            <div class="form__input--triangulo">
+                <input id="inputTrianguloA" type="number" placeholder="Lado A" class="input__triangulo">
+                <input id="inputTrianguloB" type="number" placeholder="Lado B" class="input__triangulo">
+                <input id="inputTrianguloBase" type="number" placeholder="Base" class="input__triangulo">
+                <input id="inputTrianguloAltura" type="number" placeholder="Altura" class="input__triangulo">
+            </div>
+            <button type="button" onclick="calcularPerimetroTriangulo()" class="figure__container--button">
+                Calcular el perímetro
+            </button>
+            <button type="button" onclick="calcularAreaTriangulo()" class="figure__container--button">
+                Calcular el área
+            </button>
         </form>
     </article>
     <!-- Circulo -->
     <article class="figure__container--circulo">
         <span></span>
         <p class="figure__container--title">Circulo</p>
-        <form>
-        <label for="InputCicrulo" class="figure__container--label">
-            Escribe cuánto mide el radio de tu circunferencia:
-        </label>
-        <input id="inputCirculo" type="number" class="figure__container--input"/>
-        <button type="button" onclick="calcularPerimetroCirculo()" class="figure__container--button">
-            Calcular el perímetro
-        </button>
-        <button type="button" onclick="calcularAreaCirculo()" class="figure__container--button">
-            Calcular el área
-        </button>
+        <form class="form__figure">
+            <label for="InputCicrulo" class="figure__container--label">
+                Escribe cuánto mide el radio de tu circunferencia:
+            </label>
+            <input id="inputCirculo" type="number" class="figure__container--input"/>
+            <button type="button" onclick="calcularPerimetroCirculo()" class="figure__container--button">
+                Calcular el perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCirculo()" class="figure__container--button">
+                Calcular el área
+            </button>
         </form>
     </article>
   </section>
@@ -83,7 +83,7 @@
   <h2>2.- Calculamos porcentajes y descuentos en una tienda</h2>
   <section class="descuentos__container">
     <div class="cupones">
-        <img src="./assets/img/begoz.png" alt="logo" class="logo">
+        <a target=”_blank” href="https://www.facebook.com/begoztextil"><img src="./assets/img/begoz.png" alt="logo" class="logo"></a>
         <span class="numero__cupones">Tienes " 3 " cupones</span>
     </div>
     <article class="shop__item">
@@ -109,12 +109,29 @@
     <article class="shop__item">
         <img src="./assets/img/canguro 3.png" alt="canguro">
         <div class="shop__item--text">
-            <p class="shop__item--title">Canguro <span class="teen">Teen</span> Foreverff</p>
+            <p class="shop__item--title">Canguro <span class="teen">Teen</span> Forever</p>
             <p>Colores: Azul - Rojo - Naranja - Celeste</p>
             <p>Tallas: M - L - XL - XXL</p>
             <span class="precio">Precio : 150bs</span>
             <button class="button__cupon">Usar cupon</button>
         </div>
+    </article>
+    <article class="calculadora__descuentos">
+        <p>¿Quieres calcular cuanto pagaras por tus productos con descuento?</p>
+        <form class="form__tienda">
+            <div>
+                <label for="">Escribe el precio de tu producto:</label>
+                <input id="inputPrice" type="number">
+            </div>
+            <div>
+                <label for="">Escribe el descuento de tu producto:</label>
+                <input id="inputDiscount" type="number">
+            </div>
+            <button type="button" onclick="">
+                Obtener precio con descuento
+            </button>
+        </form>
+        <p>Tu precio con descuento es:</p>
     </article>
   </section>
   <h2>3.-</h2>
